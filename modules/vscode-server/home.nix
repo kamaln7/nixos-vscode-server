@@ -7,9 +7,5 @@ import ./module.nix ({ name, description, serviceConfig }:
     };
 
     Service = serviceConfig;
-
-    Install = {
-      WantedBy = [ "default.target" ];
-    };
   };
 })
